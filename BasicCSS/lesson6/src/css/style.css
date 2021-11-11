@@ -1,0 +1,40 @@
+* {
+ box-sizing: border-box;
+ /* бокс ориентируется толлько на показатель ширины */
+}
+
+.box {
+ width: 100%;
+ opacity: .8;
+ background-color: green;
+ height: 300px;
+ width: 300px;
+ /* relative - манипуляция дочерними элементами
+ fixed - закреплен на определенном месте*/
+ /* border: 10px solid #000;
+ display: inline-block;
+ margin-right: -5px; */
+}
+
+.mini-box {
+ position: absolute;
+ background-color: red;
+ left: 50%;
+ height: 50px;
+ width: 50px;
+}
+
+/* Рамка background-color: silver;
+ color: gold;
+ padding-top: 20px;
+ padding-left: 30px;
+ border: 10px dashed red;
+ border-top: 20px solid green;
+ border-width: 36px; */
+/* display: inline-block; что бы блок не занимал всю строчку*/
+/* overflow: auto; видимость текста в блочном элементе*/
+/* .mini-box {
+ width: 50%;
+ height: 50px;
+ background-color: red;
+} */
