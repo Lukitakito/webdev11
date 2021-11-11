@@ -1,0 +1,29 @@
+.box {
+ text-align: center;
+ width: 1366px;
+ position: relative;
+ background-color: antiquewhite;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ min-height: 100%;
+ margin-left: -8px;
+ margin-top: -8px;
+}
+
+header {
+ padding-top: 70px;
+ font-size: 150px;
+ height: 250px;
+}
+
+.information {
+ height: 245px;
+}
+
+footer {
+ background-color: black;
+ margin-top: -20px;
+ height: 40px;
+ width: 1366px;
+ margin-left: -8px;
+ margin-bottom: -10px;
+}
