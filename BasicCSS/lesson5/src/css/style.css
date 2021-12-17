@@ -1,0 +1,41 @@
+/* body { 
+ background-color: black;
+}
+
+@import url("main.css");*/
+.text {
+ color: red;
+}
+
+#text-1 {
+ color: silver;
+}
+
+.header {
+ text-transform: uppercase;
+ /* (заглавные буквы) */
+}
+
+p {
+ text-align: justify;
+ /* (заполнение строчек) */
+}
+
+/*h1 { 
+ 
+ color: rgba(255, 25, 2, 0.2);
+ background-color: khaki;
+ text-transform: uppercase;
+ text-decoration: line-through;
+}*/
+
+h1 {
+ border: 2px solid #000;
+}
+
+a {
+ background-color: rosybrown;
+ display: inline-block;
+ width: 300px;
+
+}
